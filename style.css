@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.navibar {
+    margin-top: 60px;
+}
+
+.frame9 {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.frame9-icon {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.navibar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.frame10 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.frame10 a{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.frame10-button {
+    padding: 20px 35px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.frame13 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 70px;
+    margin-bottom: 34px;
+    align-items:flex-start;
+    max-width: 531px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: left;
+    line-height: normal;
+}
+
+.hero-description {
+    margin-right: 33px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.hero-button {
+    padding: 20px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.frame13-img {
+    margin-top: 70px;
+    width: 601px;
+    height: 515px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.logotype {
+    margin-top: 70px;
+}
+
+.logotype .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicesblocks {
+    margin-top: 70px;
+}
+
+.servicesblock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.card {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 0 #191A23;
+
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    flex: 1;
+}
+
+.card-img{
+    flex-shrink: 0;
+    max-width: 100%;
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-link-icon {
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+}
+
+.card-link h4 {
+    line-height: 28px;
+    font-weight: 400;
+}
+
+
+.green-highlight {
+    background-color:#B9FF66;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 0 7px;
+}
+
+.greenback {
+    background-color: #B9FF66;
+}
+
+.blackback {
+    background-color: #191A23;
+}
+
+.grayback {
+    background-color: #F3F3F3;
+}
